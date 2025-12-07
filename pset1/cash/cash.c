@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int greedy_algorithm(int change);
+int calculate_minimum_coins(int change);
 
 int main()
 {
@@ -10,16 +10,16 @@ int main()
     {
         change = get_int("Change owed: ");
     }
-    while(change < 0);
-    printf("%d\n", greedy_algorithm(change));
+    while (change < 0);
+    printf("%d\n", calculate_minimum_coins(change));
 }
 
-int greedy_algorithm(int change)
+int calculate_minimum_coins(int change)
 {
-    int price_25 = 25;
-    int price_10 = 10;
-    int price_5 = 5;
-    int price_1 = 1;
+    const int price_25 = 25;
+    const int price_10 = 10;
+    const int price_5 = 5;
+    const int price_1 = 1;
     int coin_count = 0;
     while (change > 0)
     {
@@ -41,10 +41,6 @@ int greedy_algorithm(int change)
         else if (change >= price_1)
         {
             change -= price_1;
-            coin_count++;
-        }
-        else
-        {
             coin_count++;
         }
     }
