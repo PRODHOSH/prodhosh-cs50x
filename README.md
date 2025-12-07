@@ -1,4 +1,4 @@
-# CS50x Documentation & Solutions
+# cs50x Documentation & Solutions
 
 This repository contains my personal documentation and reference code for Harvard's **CS50x** course.  
 It is **not** used for submitting problem sets — this repo is only for learning, tracking progress, and organizing my solutions.
