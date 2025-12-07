@@ -10,6 +10,8 @@ This repo exists only for:
 - Building a public portfolio  
 
 ---
+
+## 📁 Repository Structure
 ```text
 prodhosh-cs50x/
 ├── pset0/
@@ -38,7 +40,8 @@ prodhosh-cs50x/
 │   ├── substitution/
 │   │   └── substitution.c
 │   └── notes.md
-
+```
+---
 
 ## 📬 Contact
 
