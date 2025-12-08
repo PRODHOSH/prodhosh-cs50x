@@ -1,23 +1,49 @@
 # pset1 Notes
 
-## Topics Learned
-- Basic C syntax
-- Functions and return values
-- Conditionals and loops
-- Getting user input using `get_int` and `get_string`
-- Working with integers and ASCII characters
+## What I Learned
+- Basics of C syntax: functions, header files, compilation  
+- Using `printf`, variables, data types, and operators  
+- Getting user input with CS50’s `get_int`, `get_string`, etc.  
+- Using loops (`for`, `while`) to repeat actions  
+- Conditionals (`if`, `else if`, `else`) to control logic flow  
+- Understanding how programs execute step-by-step  
+- How to debug using `printf` and careful reasoning  
 
-## Programs in this pset
-- `hello.c`: printing output with variables
-- `mario.c`: nested loops for patterns
-- `cash.c`: greedy algorithm for coin change
-- `credit.c`: Luhn's algorithm and card validation
+## My C Programs
 
-## Key Challenges
-- Understanding nested loops for the Mario problem
-- Implementing the greedy algorithm correctly
-- Breaking down Luhn's algorithm step-by-step
+### **Hello**
+A simple program that prints text using `printf`.  
+**Concepts practiced:** syntax, strings, compilation, output formatting.
 
-## What I found useful
-- Dry-running logic before coding
-- Using modular functions for readability
+### **Mario (Less/More)**
+Programs that print left-aligned or pyramid-style blocks using loops.  
+**Concepts practiced:** nested loops, user input validation, printing patterns, logic flow.
+
+### **Cash**
+A greedy algorithm that calculates the minimum number of coins for a given amount of change.  
+**Concepts practiced:** loops, integer division, modulo operations, algorithmic thinking.
+
+### **Credit**
+A program that validates credit card numbers using Luhn’s algorithm.  
+**Concepts practiced:** long integers, digit extraction, loops, math logic, conditionals.
+
+## Challenges Faced
+- Handling invalid user input and repeating prompts until correct  
+- Understanding how nested loops work in Mario  
+- Extracting digits one-by-one for Luhn’s algorithm  
+- Managing integer vs. floating-point issues in Cash  
+- Breaking problems into small logical steps  
+
+## Concepts Explored
+- Data types: `int`, `long`, `string`  
+- Loop structures and patterns  
+- Condition checking and branching  
+- Greedy algorithms and mathematical reasoning  
+- Modular arithmetic for digit operations  
+- Code readability and structure  
+
+## Key Takeaways
+- Small, well-structured steps make complex programs easier  
+- Loops and conditions form the backbone of programming logic  
+- Algorithms matter even in simple problems  
+- Debugging is part of the learning process  
