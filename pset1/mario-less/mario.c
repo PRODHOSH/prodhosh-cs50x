@@ -10,19 +10,20 @@ int main()
     {
         height = get_int("Height: ");
     }
-    while (height < 1 || height > 8); // get input from user till they type 1 to 8
-    print_mario(height);
+    while (height < 1 || height > 8); // getting height until valid input
+    print_mario(height); // print mario function
+    return 0;
 }
 
-void print_mario(int n) // function to print the mario
+void print_mario(int n)
 {
-    for (int i = 1; i < n + 1; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n - i; j++)
+        for (int j = 0; j < n - i - 1; j++)
         {
             printf(" ");
         }
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j < i + 1; j++)
         {
             printf("#");
         }
